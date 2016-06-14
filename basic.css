@@ -237,7 +237,7 @@ button.basic.link.without.padding {
 }
 
 /* INPUTS */
-input.basic, .basic.labled.input > input, form.basic > .field > input {
+input.basic, .basic.labeled.input > input, form.basic > .field > input {
     font-size: 14px;
     padding: 1em 0.68em;
     border: 1px solid rgba(34, 36, 38, 0.14902);
@@ -256,7 +256,7 @@ input.basic.animated {
 input.basic.disabled, form.basic > .field > input.disabled {
     pointer-events: none;
 }
-input.basic:focus, input.basic.focus, input.basic.animated:focus, input.basic.animated.focus, .basic.labled.input > input:focus, form.basic > .field > input:focus {
+input.basic:focus, input.basic.focus, input.basic.animated:focus, input.basic.animated.focus, .basic.labeled.input > input:focus, form.basic > .field > input:focus {
     border-color: rgb(133, 183, 217);
     outline: none;
 }
@@ -266,14 +266,14 @@ input.basic::-webkit-input-placeholder, form.basic > .field > input::-webkit-inp
 input.basic:focus::-webkit-input-placeholder, form.basic > .field > input:focus::-webkit-input-placeholder {
     color: rgba(0,0,0,.87);
 }
-.basic.labled.input {
+.basic.labeled.input {
     display: block;
     margin: 0.5em;
     float: left;
     clear: both;
     overflow: hidden;
 }
-.basic.labled.input:after {
+.basic.labeled.input:after {
 	visibility: hidden;
 	display: block;
 	font-size: 0;
@@ -281,25 +281,25 @@ input.basic:focus::-webkit-input-placeholder, form.basic > .field > input:focus:
 	clear: both;
 	height: 0;
 }
-.basic.labled.input > input {
+.basic.labeled.input > input {
     margin: 0 !important;
 }
-.basic.labled.input > * {
+.basic.labeled.input > * {
     float: left;
 }
-.basic.labled.input > *:first-child {
+.basic.labeled.input > *:first-child {
     border-radius: 4px 0 0 4px;
 }
-.basic.labled.input > *:last-child {
+.basic.labeled.input > *:last-child {
     border-radius: 0 4px 4px 0;
 }
-.basic.labled.input > *:not(:last-child):not(input) {
+.basic.labeled.input > *:not(:last-child):not(input) {
     border-right-width: 0px;
 }
-.basic.labled.input > input:not(:last-child) {
+.basic.labeled.input > input:not(:last-child) {
     border-right-width: 1px;
 }
-.basic.labled.input > span {
+.basic.labeled.input > span {
     color: rgba(0,0,0,.6);
     font-weight: bold;
     background-color: rgba(34, 36, 38, 0.14902);
