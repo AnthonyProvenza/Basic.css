@@ -332,7 +332,7 @@ ul.basic.no.icons > li:not(:last-of-type) {
 /* MENU */
 nav.basic {
     height: auto;
-    width: 100%;
+    width: calc(100% - 2px);
     border: 1px solid rgba(34, 36, 38, 0.14902);
     border-radius: 0 0 4px 4px;
 }
@@ -341,6 +341,12 @@ nav.basic::after {
     display: block; 
     height: 0; 
     clear: both;
+}
+nav.basic > a {
+    text-decoration: none;
+}
+nav.basic > *.active {
+    background-color: rgba(0,0,0,.05);
 }
 nav.basic > *:not(.right), nav.basic > div.right > * {
     float: left;
