@@ -237,7 +237,7 @@ button.basic.link.without.padding {
 }
 
 /* INPUTS */
-input.basic, .basic.labled.input > input, form.basic > .field > input {
+input.basic, .basic.labled.input > input, form.basic > .field > input, .basic.labeled.input > input {
     font-size: 14px;
     padding: 1em 0.68em;
     border: 1px solid rgba(34, 36, 38, 0.14902);
@@ -368,6 +368,8 @@ nav.basic > a, nav.basic > div.right > a {
 }
 nav.basic > a:hover, nav.basic > div.right > a:hover {
     text-decoration: none;
+}
+nav.basic > a:hover:not(.active), nav.basic > div.right > a:hover:not(.active) {
     background-color: rgba(0, 0, 0, 0.027451);
 }
 nav.basic > div.right {
