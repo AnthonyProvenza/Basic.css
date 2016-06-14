@@ -237,7 +237,7 @@ button.basic.link.without.padding {
 }
 
 /* INPUTS */
-input.basic, .basic.labled.input > input, form.basic > .field > input {
+input.basic, .basic.labled.input > input, form.basic > .field > input, .basic.labeled.input > input {
     font-size: 14px;
     padding: 1em 0.68em;
     border: 1px solid rgba(34, 36, 38, 0.14902);
