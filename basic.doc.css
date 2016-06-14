@@ -1,0 +1,31 @@
+/*
+ * Hmm... So you found this file?
+ * This is jsut styling for my docmentation.
+ * Feel free to download & use it under the same license of the main basic.css file
+*/
+.main.content {
+    padding: 2em;
+}
+span {
+    margin: 0 !important;
+    padding: 0;
+}
+.main.content > section:not(:first-of-type) {
+    margin-top: 3rem;
+}
+.main.content > section > button:not(:last-of-type) {
+    margin-right: -0.2em !important;
+}
+.main.content > section > input, .main.content > section > .basic.labled.input {
+    margin-left: 0 !important;
+}
+.segment {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.main.content > section > div.steps:not(:first-of-type) {
+    margin-top: 1.34em;
+}
+form.basic > .field > input {
+    margin-left: 0 !important;
+}
