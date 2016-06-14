@@ -368,6 +368,8 @@ nav.basic > a, nav.basic > div.right > a {
 }
 nav.basic > a:hover, nav.basic > div.right > a:hover {
     text-decoration: none;
+}
+nav.basic > a:hover:not(.active), nav.basic > div.right > a:hover:not(.active) {
     background-color: rgba(0, 0, 0, 0.027451);
 }
 nav.basic > div.right {
