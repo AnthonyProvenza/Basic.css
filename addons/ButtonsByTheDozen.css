@@ -1,0 +1,193 @@
+/*
+ * Buttons By the Dozen addon for basic.css
+ * Licensed under the MIT License
+ * Made by Anthony Provenza
+*/
+
+/* COMMON */
+button.basic.red, button.basic.orange, button.basic.yellow, button.basic.olive, button.basic.green, button.basic.teal, button.basic.blue, button.basic.violet, button.basic.purple, button.basic.pink, button.basic.brown, button.basic.grey, button.basic.black {
+    color: #fff;
+}
+
+/* RED */
+button.basic.red {
+    background-color: #DB2828;
+}
+button.basic.red:hover {
+    background-color: #D01919;
+}
+button.basic.red:focus: {
+    background-color: #ca1010;
+    
+}
+button.basic.red:active {
+    background-color: #b21e1e;
+}
+
+/* ORANGE */
+button.basic.orange {
+    background-color: #f2711c;
+}
+button.basic.orange:hover {
+    background-color: #f26202;
+}
+button.basic.orange:focus {
+    background-color: #e55b00;
+}
+button.basic.orange:active {
+    background-color: #cf590c;
+}
+
+/* YELLOW */
+button.basic.yellow {
+    background-color: #fbbd08;
+}
+button.basic.yellow:hover {
+    background-color: #eaae00;
+}
+button.basic.yellow:focus {
+    background-color: #daa300;
+}
+button.basic.yellow:active {
+    background-color: #cd9903;
+}
+
+/* OLIVE */
+button.basic.olive {
+    background-color: #b5cc18;
+}
+button.basic.olive:hover {
+    background-color: #a7bd0d;
+}
+button.basic.olive:focus {
+    background-color: #a0b605;
+}
+button.basic.olive:active {
+    background-color: #8d9e13;
+}
+
+/* GREEN */
+button.basic.green {
+    background-color: #21ba45;
+}
+button.basic.green:hover {
+    background-color: #16ab39;
+}
+button.basic.green:focus {
+    background-color: #0ea432;
+}
+button.basic.green:active {
+    background-color: #198f35;
+}
+
+/* TEAL */
+button.basic.teal {
+    background-color: #00b5ad;
+}
+button.basic.teal:hover {
+    background-color: #009c95;
+}
+button.basic.teal:focus {
+    background-color: #008c86;
+}
+button.basic.teal:active {
+    background-color: #00827c;
+}
+
+/* BLUE */
+button.basic.blue {
+    background-color: #2185d0;
+}
+button.basic.blue:hover {
+    background-color: #1678c2;
+}
+button.basic.blue:focus {
+    background-color: #0d71bb;
+}
+button.basic.blue:active {
+    background-color: #1a69a4;
+}
+
+/* VIOLET */
+button.basic.violet {
+    background-color: #6435c9;
+}
+button.basic.violet:hover {
+    background-color: #5829bb;
+}
+button.basic.violet:focus {
+    background-color: #4f20b5;
+}
+button.basic.violet:active {
+    background-color: #502aa1;
+}
+
+/* PURPLE */
+button.basic.purple {
+    background-color: #a333c8;
+}
+button.basic.purple:hover {
+    background-color: #9627ba;
+}
+button.basic.purple:focus {
+    background-color: #8f1eb4;
+}
+button.basic.purple:active {
+    background-color: #82299f;
+}
+
+/* PINK */
+button.basic.pink {
+    background-color: #e03997;
+}
+button.basic.pink:hover {
+    background-color: #e61a8d;
+}
+button.basic.pink:focus {
+    background-color: #e10f85;
+}
+button.basic.pink:active {
+    background-color: #c71f7e;
+}
+
+/* BROWN */
+button.basic.brown {
+    background-color: #a5673f;
+}
+button.basic.brown:hover {
+    background-color: #975b33;
+}
+button.basic.brown:focus {
+    background-color: #90532b;
+}
+button.basic.brown:active {
+    background-color: #805031;
+}
+
+/* GREY */
+button.basic.grey {
+    background-color: #767676;
+}
+button.basic.grey:hover {
+    background-color: #838383;
+}
+button.basic.grey:focus {
+    background-color: #8a8a8a;
+}
+button.basic.grey:active {
+    background-color: #909090;
+}
+
+/* BLACK */
+button.basic.black {
+    background-color: #1b1c1d;
+}
+button.basic.black:hover {
+    background-color: #27292a;
+}
+button.basic.black:focus {
+    background-color: #2f3032;
+}
+button.basic.black:active {
+    background-color: #343637;
+}

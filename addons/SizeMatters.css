@@ -1,0 +1,31 @@
+/*
+ * Size Matters addon for basic.css
+ * Licensed under the MIT License
+ * Made by Anthony Provenza
+*/
+
+/* SIZES */
+button.basic.mini {
+    font-size: 10px;
+}
+button.basic.tiny {
+    font-size: 12px;
+}
+button.basic.small {
+    font-size: 13px;
+}
+button.basic.medium {
+    font-size: 14px;
+}
+button.basic.large {
+    font-size: 16px;
+}
+button.basic.big {
+    font-size: 18px;
+}
+button.basic.huge {
+    font-size: 20px;
+}
+button.basic.massive {
+    font-size: 24px;
+}
